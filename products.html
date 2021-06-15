@@ -1,5 +1,4 @@
 
-
 <!DOCTYPE html>
 <html lang="ru">
 
@@ -19,7 +18,7 @@
 
 <body>
 
-<header class="header front">
+<header class="header ">
     <div class="container">
         <div class="header__wrapper">
             <a href="/" class="logo">
@@ -116,181 +115,269 @@
     </div>
 </div>
 <main class="main">
-<section class="hero" style="background-image: url('./images/backgrounds/hero-bg.jpg')">
+<section class="page__hero" style="background-image: url('./images/backgrounds/catalog-hero.jpg');">
     <div class="container">
-        <h1 class="hero__title">Исследуй безграничные пространства роскоши вместе с Original Watch</h1>
-        <div class="hero__categories">
-            <a href="./catalog.html" style="background-image: url('./images/categories-1.jpg')">
-                <span>Швейцарские часы</span>
-            </a>
-            <a href="./catalog.html" style="background-image: url('./images/categories-2.jpg')">
-                <span>Ювелирные изделия</span>
-            </a>
-            <a href="./catalog.html" style="background-image: url('./images/categories-3.jpg')">
-                <span>Аксессуары для часов</span>
-            </a>
-        </div>
+        <h2 class="title">Каталог</h2>
     </div>
 </section>
-<section class="mabout" style="background-image: url('./images/backgrounds/mabout-bg.jpg');">
+<section class="products">
     <div class="container">
-        <h2 class="title">Original Watch</h2>
-        <p>Dauri Club широко известна своим высококлассным обслуживанием не только в сфере покупки и продажи предметов роскоши, но и в сфере их сервисного обслуживания. Поэтому представляем Вам наш сервисный центр - Dauri Service. Мы занимаемся сервисным обслуживанием и ремонтом часов и ювелирных изделий, а также консультированием в уходе за ними, чтобы Ваши изделия сохранили первоизданный вид как можно дольше.</p>
-        
-            
-        
-    </div>
-</section>
-<section class="new">
-    <div class="container">
-        <h2 class="title">Новинки</h2>
-        <p class="subtitle">Новые поступления нашего бутика Original Watch</p>
-        <div class="new__wrapper">
-            <div class="new__slider swiper-container">
-                <div class="new__list swiper-wrapper">
-                    <a href="#" class="new__item swiper-slide">
-                        <p class="new__img">
-                            <img src="./images/catalog/catalog-1.png" alt="catalog">
-                        </p>
-                        <p class="new__brand">ROLEX</p>
-                        <p class="new__title">ROLEX DATEJUST 31 OYSTER</p>
-                        <p class="new__price">7000$</p>
-                    </a>
-                    <a href="#" class="new__item swiper-slide">
-                        <p class="new__img">
-                            <img src="./images/catalog/catalog-1.png" alt="catalog">
-                        </p>
-                        <p class="new__brand">ROLEX</p>
-                        <p class="new__title">ROLEX DATEJUST 31 OYSTER</p>
-                        <p class="new__price">7000$</p>
-                    </a>
-                    <a href="#" class="new__item swiper-slide">
-                        <p class="new__img">
-                            <img src="./images/catalog/catalog-1.png" alt="catalog">
-                        </p>
-                        <p class="new__brand">ROLEX</p>
-                        <p class="new__title">ROLEX DATEJUST 31 OYSTER</p>
-                        <p class="new__price">7000$</p>
-                    </a>
-                    <a href="#" class="new__item swiper-slide">
-                        <p class="new__img">
-                            <img src="./images/catalog/catalog-1.png" alt="catalog">
-                        </p>
-                        <p class="new__brand">ROLEX</p>
-                        <p class="new__title">ROLEX DATEJUST 31 OYSTER</p>
-                        <p class="new__price">7000$</p>
-                    </a>
-                    <a href="#" class="new__item swiper-slide">
-                        <p class="new__img">
-                            <img src="./images/catalog/catalog-1.png" alt="catalog">
-                        </p>
-                        <p class="new__brand">ROLEX</p>
-                        <p class="new__title">ROLEX DATEJUST 31 OYSTER</p>
-                        <p class="new__price">7000$</p>
-                    </a>
-                </div>
+        <button type="button" class="filters__btn">
+            <img src="./images/icons/filter.svg" alt="filter">
+        </button>
+        <div class="products__wrapper">
+            <div class="products__left">
+                <p>Категории:</p>
+                <ul class="products__categories">
+                    <li><a href="#" class="active">Наручные часы</a></li>
+                    <li><a href="#">Аксессуары для часов</a></li>
+                    <li><a href="#">Скидки</a></li>
+                </ul>
             </div>
-            <div class="slider__controls">
-                <button type="button" class="slider__control slider__control-prev">
-                    <img src="./images/icons/chevron-left-big.png" alt="left">
-                </button>
-                <button type="button" class="slider__control slider__control-next">
-                    <img src="./images/icons/chevron-right-big.png" alt="left">
-
-                </button>
-            </div>
-        </div>
-
-
-        <a href="./about.html" class="link">Перейти в каталог</a>
-    </div>
-</section>
-<section class="features" style="background-image: url('./images/backgrounds/mfeatures-bg.png');">
-    <div class="container">
-        <h2 class="title">Наши преимущества</h2>
-        <div class="features__wrapper">
-            <div class="features__slider swiper-container">
-                <div class="features__list swiper-wrapper">
-                    <div class="features__item swiper-slide">
-                        <p class="features__title">Широкий спектр услуг</p>
-                        <p class="features__text">Мы продаем и покупаем часы и ювелирные изделия на выгодных для Вас условиях</p>
-                        <a href="#" class="link">Узнать больше</a>
-                    </div>
-                    <div class="features__item swiper-slide">
-                        <p class="features__title">Широкий спектр услуг</p>
-                        <p class="features__text">Мы продаем и покупаем часы и ювелирные изделия на выгодных для Вас условиях</p>
-                        <a href="#" class="link">Узнать больше</a>
-                    </div>
-                    <div class="features__item swiper-slide">
-                        <p class="features__title">Широкий спектр услуг</p>
-                        <p class="features__text">Мы продаем и покупаем часы и ювелирные изделия на выгодных для Вас условиях</p>
-                        <a href="#" class="link">Узнать больше</a>
-                    </div>
-                </div>
-            </div>
-            <div class="slider__controls">
-                <button type="button" class="slider__control slider__control-prev">
-                    <img src="./images/icons/chevron-left-big.png" alt="left">
-                </button>
-                <button type="button" class="slider__control slider__control-next">
-                    <img src="./images/icons/chevron-right-big.png" alt="left">
-                </button>
-            </div>
-        </div>
-    </div>
-</section>
-<section class="reviews">
-    <div class="container">
-        <h2 class="title">Отзывы наших клиентов</h2>
-        <div class="reviews__wrapper">
-            <div class="reviews__slider swiper-container">
-                <div class="reviews__list swiper-wrapper">
-                    <div class="reviews__item swiper-slide">
-                        <p class="reviews__text">
-                            Original Watch - высококвалифицированные и опытные эксперты по работе с предметами роскоши.Если хотите узнать стоимость Вашего изделия, Вы всегда можете обратиться к нам. При желании продать или обменять Ваши часы или ювелирные украшения по программе trade-in, мы с радостью предложим Вам приемлемую цену.
+            <div class="products__right">
+                <div class="products__list">
+                    <div class="products__item">
+                        <p class="products__img">
+                            <img src="./images/catalog/catalog-1.png" alt="catalog">
                         </p>
-                        <div class="reviews__bottom">
-                            <p class="reviews__avatar">
-                                <img src="./images/reviews/reviews-1.jpg" alt="avatar">
-                            </p>
-                            <p class="reviews__author">Александр</p>
-                        </div>
+                        <p class="products__brand">ROLEX</p>
+                        <p class="products__title">ROLEX DATEJUST 31 OYSTER</p>
+                        <p class="products__price">7000$</p>
+                        <a href="#" class="link">Подробнее</a>
                     </div>
-                    <div class="reviews__item swiper-slide">
-                        <p class="reviews__text">
-                            Original Watch - высококвалифицированные и опытные эксперты по работе с предметами роскоши.Если хотите узнать стоимость Вашего изделия, Вы всегда можете обратиться к нам. При желании продать или обменять Ваши часы или ювелирные украшения по программе trade-in, мы с радостью предложим Вам приемлемую цену.
+                    <div class="products__item">
+                        <p class="products__img">
+                            <img src="./images/catalog/catalog-1.png" alt="catalog">
                         </p>
-                        <div class="reviews__bottom">
-                            <p class="reviews__avatar">
-                                <img src="./images/reviews/reviews-1.jpg" alt="avatar">
-                            </p>
-                            <p class="reviews__author">Александр</p>
-                        </div>
+                        <p class="products__brand">ROLEX</p>
+                        <p class="products__title">ROLEX DATEJUST 31 OYSTER</p>
+                        <p class="products__price">7000$</p>
+                        <a href="#" class="link">Подробнее</a>
                     </div>
-                    <div class="reviews__item swiper-slide">
-                        <p class="reviews__text">
-                            Original Watch - высококвалифицированные и опытные эксперты по работе с предметами роскоши.Если хотите узнать стоимость Вашего изделия, Вы всегда можете обратиться к нам. При желании продать или обменять Ваши часы или ювелирные украшения по программе trade-in, мы с радостью предложим Вам приемлемую цену.
+                    <div class="products__item">
+                        <p class="products__img">
+                            <img src="./images/catalog/catalog-1.png" alt="catalog">
                         </p>
-                        <div class="reviews__bottom">
-                            <p class="reviews__avatar">
-                                <img src="./images/reviews/reviews-1.jpg" alt="avatar">
-                            </p>
-                            <p class="reviews__author">Александр</p>
-                        </div>
+                        <p class="products__brand">ROLEX</p>
+                        <p class="products__title">ROLEX DATEJUST 31 OYSTER</p>
+                        <p class="products__price">7000$</p>
+                        <a href="#" class="link">Подробнее</a>
+                    </div>
+                    <div class="products__item">
+                        <p class="products__img">
+                            <img src="./images/catalog/catalog-1.png" alt="catalog">
+                        </p>
+                        <p class="products__brand">ROLEX</p>
+                        <p class="products__title">ROLEX DATEJUST 31 OYSTER</p>
+                        <p class="products__price">7000$</p>
+                        <a href="#" class="link">Подробнее</a>
+                    </div>
+                    <div class="products__item">
+                        <p class="products__img">
+                            <img src="./images/catalog/catalog-1.png" alt="catalog">
+                        </p>
+                        <p class="products__brand">ROLEX</p>
+                        <p class="products__title">ROLEX DATEJUST 31 OYSTER</p>
+                        <p class="products__price">7000$</p>
+                        <a href="#" class="link">Подробнее</a>
+                    </div>
+                    <div class="products__item">
+                        <p class="products__img">
+                            <img src="./images/catalog/catalog-1.png" alt="catalog">
+                        </p>
+                        <p class="products__brand">ROLEX</p>
+                        <p class="products__title">ROLEX DATEJUST 31 OYSTER</p>
+                        <p class="products__price">7000$</p>
+                        <a href="#" class="link">Подробнее</a>
+                    </div>
+                    <div class="products__item">
+                        <p class="products__img">
+                            <img src="./images/catalog/catalog-1.png" alt="catalog">
+                        </p>
+                        <p class="products__brand">ROLEX</p>
+                        <p class="products__title">ROLEX DATEJUST 31 OYSTER</p>
+                        <p class="products__price">7000$</p>
+                        <a href="#" class="link">Подробнее</a>
+                    </div>
+                    <div class="products__item">
+                        <p class="products__img">
+                            <img src="./images/catalog/catalog-1.png" alt="catalog">
+                        </p>
+                        <p class="products__brand">ROLEX</p>
+                        <p class="products__title">ROLEX DATEJUST 31 OYSTER</p>
+                        <p class="products__price">7000$</p>
+                        <a href="#" class="link">Подробнее</a>
+                    </div>
+                    <div class="products__item">
+                        <p class="products__img">
+                            <img src="./images/catalog/catalog-1.png" alt="catalog">
+                        </p>
+                        <p class="products__brand">ROLEX</p>
+                        <p class="products__title">ROLEX DATEJUST 31 OYSTER</p>
+                        <p class="products__price">7000$</p>
+                        <a href="#" class="link">Подробнее</a>
+                    </div>
+                    <div class="products__item">
+                        <p class="products__img">
+                            <img src="./images/catalog/catalog-1.png" alt="catalog">
+                        </p>
+                        <p class="products__brand">ROLEX</p>
+                        <p class="products__title">ROLEX DATEJUST 31 OYSTER</p>
+                        <p class="products__price">7000$</p>
+                        <a href="#" class="link">Подробнее</a>
+                    </div>
+                    <div class="products__item">
+                        <p class="products__img">
+                            <img src="./images/catalog/catalog-1.png" alt="catalog">
+                        </p>
+                        <p class="products__brand">ROLEX</p>
+                        <p class="products__title">ROLEX DATEJUST 31 OYSTER</p>
+                        <p class="products__price">7000$</p>
+                        <a href="#" class="link">Подробнее</a>
                     </div>
                 </div>
-            </div>
-            <div class="slider__controls">
-                <button type="button" class="slider__control slider__control-prev">
-                    <img src="./images/icons/chevron-left-big.png" alt="left">
-                </button>
-                <button type="button" class="slider__control slider__control-next">
-                    <img src="./images/icons/chevron-right-big.png" alt="left">
-                </button>
+
+                <ul class="pagination">
+                    <li><a href="#" class="page-numbers current">1</a></li>
+                    <li><a href="#" class="page-numbers">2</a></li>
+                    <li><a href="#" class="page-numbers">3</a></li>
+                    <li><a href="#" class="page-numbers">4</a></li>
+                    <li><a href="#" class="page-numbers">5</a></li>
+                    <li><a href="#">
+                            <svg width="8" height="14" viewBox="0 0 8 14" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0.22 1.30898L1.4 0.0699768L8 6.99998L1.4 13.93L0.22 12.691L5.64 6.99998L0.22 1.30898Z"/>
+                            </svg>
+                        </a>
+                    </li>
+                    <li><a href="#">
+                            <svg width="13" height="14" viewBox="0 0 13 14"xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0.22 1.30898L1.4 0.0699768L8 6.99998L1.4 13.93L0.22 12.691L5.64 6.99998L0.22 1.30898Z"/>
+                                <path d="M5.22 1.30898L6.4 0.0699768L13 6.99998L6.4 13.93L5.22 12.691L10.64 6.99998L5.22 1.30898Z"/>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
             </div>
         </div>
+
     </div>
 </section>
+<div class="filters">
+    <button type="button" class="filters__close">
+        <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="1.41418" width="24" height="2" transform="rotate(45 1.41418 0)" fill="white" />
+            <rect width="24" height="2" transform="matrix(-0.707107 0.707107 0.707107 0.707107 17.4142 0)" fill="white" />
+        </svg>
+    </button>
+    <div class="filters__price">
+        <p class="filters__title">Цена</p>
+    </div>
+    <div class="collapse">
+        <button class="collapse__btn collapsed" type="button" data-toggle="collapse" data-target="gender" aria-controls="gender">
+            Пол
+            <svg width="16" height="10" viewBox="0 0 16 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M14.6665 1.66663L7.99984 8.33329L1.33317 1.66663" stroke="white" stroke-width="2" />
+            </svg>
+        </button>
+        <div class="collapse__content collapsed" id="gender">
+            <p class="filters__field">
+                <input type="radio" id="gender1" name="gender" checked>
+                <label for="gender1" class="filters__checkbox">
+                    <span></span>
+                </label>
+                <label for="gender1" class="filters__label">Женские</label>
+            </p>
+            <p class="filters__field">
+                <input type="radio" id="gender2" name="gender">
+                <label for="gender2" class="filters__checkbox">
+                    <span></span>
+                </label>
+                <label for="gender2" class="filters__label">Мужские</label>
+            </p>
+        </div>
+    </div>
+    
+    <div class="collapse">
+        <button class="collapse__btn collapsed" type="button" data-toggle="collapse" data-target="brand" aria-controls="brand">
+            Бренды
+            <svg width="16" height="10" viewBox="0 0 16 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M14.6665 1.66663L7.99984 8.33329L1.33317 1.66663" stroke="white" stroke-width="2" />
+            </svg>
+        </button>
+        <div class="collapse__content collapsed" id="brand">
+            <p class="filters__field">
+                <input type="radio" id="brand1" name="brand">
+                <label for="brand1" class="filters__checkbox">
+                    <span></span>
+                </label>
+                <label for="brand1" class="filters__label">Arnold & Son</label>
+            </p>
+            <p class="filters__field">
+                <input type="radio" id="brand2" name="brand">
+                <label for="brand2" class="filters__checkbox">
+                    <span></span>
+                </label>
+                <label for="brand2" class="filters__label">Avakian</label>
+            </p>
+            <p class="filters__field">
+                <input type="radio" id="brand3" name="brand">
+                <label for="brand3" class="filters__checkbox">
+                    <span></span>
+                </label>
+                <label for="brand3" class="filters__label">Blancpain</label>
+            </p>
+            <p class="filters__field">
+                <input type="radio" id="brand4" name="brand">
+                <label for="brand4" class="filters__checkbox">
+                    <span></span>
+                </label>
+                <label for="brand4" class="filters__label">Breguet</label>
+            </p>
+            <p class="filters__field">
+                <input type="radio" id="brand5" name="brand">
+                <label for="brand5" class="filters__checkbox">
+                    <span></span>
+                </label>
+                <label for="brand5" class="filters__label">Bvlgari</label>
+            </p>
+            <p class="filters__field">
+                <input type="radio" id="brand6" name="brand" checked>
+                <label for="brand6" class="filters__checkbox">
+                    <span></span>
+                </label>
+                <label for="brand6" class="filters__label">Audemars Piguet</label>
+            </p>
+            <p class="filters__field">
+                <input type="radio" id="brand7" name="brand">
+                <label for="brand7" class="filters__checkbox">
+                    <span></span>
+                </label>
+                <label for="brand7" class="filters__label">Bernard Favre</label>
+            </p>
+            <p class="filters__field">
+                <input type="radio" id="brand8" name="brand">
+                <label for="brand8" class="filters__checkbox">
+                    <span></span>
+                </label>
+                <label for="brand8" class="filters__label">Bovet</label>
+            </p>
+            <p class="filters__field">
+                <input type="radio" id="brand9" name="brand">
+                <label for="brand9" class="filters__checkbox">
+                    <span></span>
+                </label>
+                <label for="brand9" class="filters__label">Buben&Zorweg</label>
+            </p>
+            <p class="filters__field">
+                <input type="radio" id="brand10" name="brand">
+                <label for="brand10" class="filters__checkbox">
+                    <span></span>
+                </label>
+                <label for="brand10" class="filters__label">Carrera Y Carrera</label>
+            </p>
+        </div>
+    </div>
+</div>
 </main>
 
 <footer class="footer">
